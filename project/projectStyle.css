@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    border-style: solid;
+    justify-content: flex-end;
+    gap: 25px;
+    background-color: #333333;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    text-align:right;
+}
+.grey:hover{
+    background-color:grey;    
+}
+
+.grey:visited{
+    color:whitesmoke
+}
+nav{
+    margin:0;
+    display: flex;
+    border-style: solid;
+    background-color: #c2bfbf;
+}
+section{
+    height: 670px;
+    font-size: 40px;
+    margin: 0;
+    display: flex;
+    /* border-style: solid; */
+    background-color: whitesmoke;
+}
+.left{
+    font-size: 32px;
+    width: 35vw;
+    line-height: 0.1;
+    padding-left: 50px;
+}
+.right{
+    width: 64vw;
+    background-image: url("projectImages/grouse-mountaim.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 55px;
+    padding-top:30px
+}
+.white{
+    padding-left: 33px;
+    padding-top: 20px
+}
+.white:hover{
+    background-color: grey;
+}
+.white:visited{
+    color: black;
+
+}

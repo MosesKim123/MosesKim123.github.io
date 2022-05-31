@@ -1,0 +1,40 @@
+body{
+    background-color: #333333;
+}
+section{
+    text-align:center;
+}
+h1{color: yellow;
+   font-size: 0.5em;
+
+}
+header{
+    text-align: center;
+    color: yellow;
+    font-size: 6em;
+}
+nav{
+    text-align: right;
+}
+canvas{
+    border-style: solid;
+    
+    
+
+}
+
+
+
+footer {
+    text-align: center;
+}
+
+footer a{
+    border-style: solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-color: yellow;
+    color: yellow;
+    text-decoration: none;
+}
+

@@ -1,0 +1,43 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="js/drawing.js"></script>
+        <script src="js/name.js"></script>
+        <script src="js/cursor.js"></script>
+        <script src="js/drawIronman.js"></script>
+        <script src="js/drawSmiley.js"></script>
+        <script src="js/ruler.js"></script>
+        <script src="js/drawKirby.js"></script>
+        <script src="js/background.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Drawing</h1>
+        </header>
+        <nav>
+            <a href="indext.html">Home</a>
+        </nav>
+        <section>
+            <canvas id="myCanvas"></canvas>
+        </section>
+        <footer>
+            
+            <a href="#" onClick="drawIronman(10,10)">Ironman</a>
+            <a href="#" onClick="drawKirby(0,53)">Kirby1</a>
+            <a href="#" onClick="drawKirby2(20,54)">Kirby2</a>
+            <a href="#" onClick="drawKirby3(40,55)">Kirby3</a>
+            <a href="#" onClick="drawKirby4(60,54)">Kirby4</a>
+            <a href="#" onClick="drawName()">Name</a>
+            <a href="#" onClick="erase()">Erase</a>
+            <a href="#" onClick="drawRuler(10)">Ruler</a>
+            <a href="#" onClick="drawCursor()">Cursor</a>
+            <a href="#" onClick="drawBackground()">background</a>
+            <br> <br>
+            <a href="#" onClick="incrementScale">Scale</a>
+        </footer>
+    </body>
+
+    </html>
